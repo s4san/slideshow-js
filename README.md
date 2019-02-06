@@ -1,6 +1,6 @@
 # TODO
 
-- Need to add demo and examples. Please [get in touch](https://www.twitter.com/_s4san_) with me to know the usage.
+- Need to add demo and examples. Please [get in touch](https://www.twitter.com/_s4san_) to know the usage.
 
 # SlideshowJS
   
