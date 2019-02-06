@@ -12,7 +12,7 @@
   
    HTML Config:
   
-   `data-qp-slide=true` - Indicates that the element is a participant in slideshow, note that
+   `data-ns-slide=true` - Indicates that the element is a participant in slideshow, note that
                         all of the elements with this attribute will have their display CSS property set to none;
                         It can cause some unintended side-effect, for example if used in conjunction with
                         `data-start-slide-show`
