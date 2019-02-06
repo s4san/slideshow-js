@@ -1,0 +1,46 @@
+$root: ns-slideshow;
+
+.#{$root} {
+  // TODO: Improve animation and easing function for active, passive
+  &--showing {
+    opacity: 1;
+    pointer-events: auto;
+    animation: fieldAppear 0.4s ease-in;
+
+    @keyframes fieldAppear {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+
+  &--hiding {
+    opacity: 0;
+    pointer-events: none;
+    animation: fieldHide 0.4s ease-out;
+
+    @keyframes fieldHide {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+  }
+
+  &--show {
+    display: block !important;
+  }
+
+  &--hide {
+    display: none !important;
+  }
+
+  [data-qp-slide="true"] {
+    display: none;
+  }
+}
