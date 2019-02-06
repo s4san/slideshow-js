@@ -1,5 +1,6 @@
-SlideshowJS
+# SlideshowJS
   
+   ```
    A utility to create slideshows out of any sequence of HTML elements
    It works by using javascript to transition each element smoothly (60fps) from display: none to display: block
   
@@ -29,3 +30,4 @@ SlideshowJS
   
    `ns-slide-show-next` - When a transition from one slide to another is complete
    `ns-slide-show-end` - When slideshow ends
+   ```
